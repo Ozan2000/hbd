@@ -1,0 +1,22 @@
+{
+  "name": "happy-birthday",
+  "version": "1.0.0",
+  "description": "happy bday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssiddhantsharma/happy-birthday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssiddhantsharma/happy-birthday/issues"
+  },
+  "homepage": "https://github.com/ssiddhantsharma/happy-birthday#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

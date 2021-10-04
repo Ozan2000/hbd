@@ -15,6 +15,7 @@
       card.setAttribute('class', 'open-fully');
       timer = null;
     }, 1000);
+    playAudio();
   });
 
   closeB.addEventListener('click', function () {
@@ -27,3 +28,8 @@
   });
 
 }());
+
+function playAudio(){
+  let audio = new Audio("audio/hbd.mp3");
+  audio.play();
+}
